@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт Холодильников</title>
+    <link rel="stylesheet" href="styles.css"> <!-- подключите ваши стили -->
+</head>
+<body>
+
+<header>
+    <h1>Ремонт Холодильников</h1>
+    <nav>
+        <ul>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>Профессиональный ремонт холодильников</h2>
+    <p>Быстро, качественно, недорого!</p>
+    <img src="fridge.jpg" alt="Холодильник">
+</section>
+
+<section id="services">
+    <h2>Наши Услуги</h2>
+    <ul>
+        <li>Ремонт компрессоров</li>
+        <li>Устранение утечек фреона</li>
+        <li>Заменa термостата</li>
+        <li>Обслуживание и чистка</li>
+        <li>Консультации по выбору техники</li>
+    </ul>
+</section>
+
+<section id="advantages">
+    <h2>Почему выбрать нас</h2>
+    <ul>
+        <li>Опытные специалисты</li>
+        <li>Гарантия на работу</li>
+        <li>Быстрый выезд</li>
+        <li>Доступные цены</li>
+    </ul>
+</section>
+
+<section id="testimonials">
+    <h2>Отзывы клиентов</h2>
+    <blockquote>
+        <p>Отличная работа! Холодильник как новый.</p>
+        <cite>Борис, Москва</cite>
+    </blockquote>
+</section>
+
+<section id="contact">
+    <h2>Оставьте заявку на ремонт</h2>
+    <form action="submit_form.php" method="POST">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="description">Описание проблемы:</label>
+        <textarea id="description" name="description" required></textarea>
+        
+        <button type="submit">Отправить заявку</button>
+    </form>
+</section>
+
+<footer>
+    <p>Телефон: +7 123 456-78-90</p>
+    <p>Email: example@example.com</p>
+    <p>Социальные сети: [ссылки]</p>
+    <p>Часы работы: Пн-Вс с 9:00 до 21:00</p>
+</footer>
+
+</body>
+</html>
